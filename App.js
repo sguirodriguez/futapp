@@ -23,7 +23,9 @@ const Navegador = createBottomTabNavigator({
       }
 },{ tabBarPosition:'bottom',
     tabBarOptions:{
-       
+        inactiveBackgroundColor:'#003366',
+        activeBackgroundColor: '#003366',
+        activeTintColor:'black',
         showLabel:true
     }
 });
